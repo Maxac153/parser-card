@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="css/css-reset.css" />
+    <link rel="stylesheet" href="css/main.css" />
+    <title>Список карт</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="head">
+        <h1 class="titel">Добавить карту</h1>
+        <div class="box-btm">
+          <button id="btn-export">E</button>
+          <button id="btn-import">📂</button>
+          <button id="btn-update">🗘</button>
+        </div>
+      </div>
+      <form id="cardForm">
+        <div class="box-item">
+          <p class="subtitle">Поиск по названию карты</p>
+          <input type="text" id="search" />
+        </div>
+        <div>
+          <p class="subtitle">Курс</p>
+          <input type="input" class="rate-card" value="50" />
+        </div>
+        <div class="box-item">
+          <p class="subtitle">Ссылка для парсинга</p>
+          <input type="text" class="card-link" name="add-input" />
+        </div>
+        <div class="box-item">
+          <p class="subtitle">Количество</p>
+          <input type="text" class="number" name="add-input" />
+        </div>
+        <button class="create-cardPost">✚</button>
+      </form>
+      <div class="box-cards">
+        <h2 class="box-cards-titel">База карт</h2>
+        <div class="card-name-colum">
+          <p class="card-name">Название карты</p>
+          <div class="price">
+            <p class="price-card dollar">Цена в долларах</p>
+            <p class="price-card rubel">Цена в рублях</p>
+          </div>
+          <p class="OOS">OOS</p>
+          <p class="column-itme">Количество</p>
+        </div>
+        <div id="cardList"></div>
+        <div class="loader hide"></div>
+      </div>
+    </div>
+    <script src="js/index.js"></script>
+  </body>
+</html>

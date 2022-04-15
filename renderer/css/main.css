@@ -1,0 +1,269 @@
+.wrapper {
+  width: 800px;
+  padding: 20px 0 30px 20px;
+  margin: 0 auto;
+}
+
+.head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#btn-update {
+  width: 40px;
+  height: 31px;
+  font-size: 14pt;
+  font-weight: bold;
+  background-color: greenyellow;
+  border: 1px #000 solid;
+}
+
+#btn-update:hover {
+  background-color: rgb(67, 126, 0);
+  transition: 0.5s;
+}
+
+#btn-update:active {
+  background-color: rgb(0, 44, 0);
+  -webkit-transition: color 0.4s linear;
+  -moz-transition: color 0.4s linear;
+  -o-transition: color 0.4s linear;
+  -ms-transition: color 0.4s linear;
+  transition: color 0.4s linear;
+}
+
+#btn-import {
+  width: 40px;
+  height: 31px;
+  font-size: 14pt;
+  font-weight: bold;
+  background-color: greenyellow;
+  border: 1px #000 solid;
+  margin-right: 5px;
+}
+
+#btn-import:hover {
+  background-color: rgb(67, 126, 0);
+  transition: 0.5s;
+}
+
+#btn-import:active {
+  background-color: rgb(0, 44, 0);
+  -webkit-transition: color 0.4s linear;
+  -moz-transition: color 0.4s linear;
+  -o-transition: color 0.4s linear;
+  -ms-transition: color 0.4s linear;
+  transition: color 0.4s linear;
+}
+
+#btn-export {
+  width: 40px;
+  height: 31px;
+  font-size: 14pt;
+  font-weight: bold;
+  background-color: greenyellow;
+  border: 1px #000 solid;
+  margin-right: 5px;
+}
+
+#btn-export:hover {
+  background-color: rgb(67, 126, 0);
+  transition: 0.5s;
+}
+
+#btn-export:active {
+  background-color: rgb(0, 44, 0);
+  -webkit-transition: color 0.4s linear;
+  -moz-transition: color 0.4s linear;
+  -o-transition: color 0.4s linear;
+  -ms-transition: color 0.4s linear;
+  transition: color 0.4s linear;
+}
+
+#cardForm {
+  display: flex;
+  justify-content: space-between;
+}
+
+.box-item {
+  margin: 0px 5px;
+}
+
+.subtitle {
+  margin-bottom: 10px;
+}
+
+.rate-card{
+  width: 35px;
+}
+
+.number {
+  width: 82px;
+  height: 31px;
+}
+
+input {
+  font-size: 14pt;
+  border: 1px #000 solid;
+}
+
+.card-link {
+  width: 350px;
+}
+
+.create-cardPost {
+  margin-top: auto;
+  height: 31px;
+  font-size: 14pt;
+  font-weight: bold;
+  background-color: greenyellow;
+  border: 1px #000 solid;
+}
+
+.create-cardPost:hover {
+  background-color: rgb(67, 126, 0);
+  transition: 0.5s;
+}
+
+.create-cardPost:active {
+  background-color: rgb(0, 44, 0);
+  -webkit-transition: color 0.4s linear;
+  -moz-transition: color 0.4s linear;
+  -o-transition: color 0.4s linear;
+  -ms-transition: color 0.4s linear;
+  transition: color 0.4s linear;
+}
+
+/* box-cards */
+
+.box-cards-titel {
+  text-align: center;
+  margin: 20px 0 15px 0;
+}
+
+.name-column {
+  display: flex;
+  justify-content: space-around;
+}
+
+.card {
+  font-size: 14pt;
+  display: flex;
+  justify-content: space-between;
+  margin: 5px 0;
+}
+
+.card-name-colum {
+  font-size: 14pt;
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0;
+}
+
+.card-name {
+  width: 233px;
+  margin: 0 5px;
+  word-wrap: break-word;
+}
+
+.number-card {
+  width: 37px;
+  height: 31px;
+}
+
+.count {
+  display: flex;
+  align-items: center;
+}
+
+.price {
+  display: flex;
+  align-items: center;
+  width: 350px;
+}
+
+.price-card {
+  width: 50%;
+  text-align: center;
+  color: orange;
+}
+
+.OOS-i {
+  width: 37px;
+  display: flex;
+  align-items: center;
+}
+
+.OOS-p {
+  margin: 0 auto;
+  color: rgb(182, 39, 39);
+}
+
+.column-itme {
+  text-align: center;
+  width: 121px;
+}
+
+.additional-data {
+  width: 233px;
+  font-size: 11pt;
+  color: rgb(184, 184, 40);
+  margin: 0 0 10px 5px;
+  font-family: 'Roboto-LightItalic', sans-serif;
+  word-wrap: break-word;
+}
+
+.btms{
+  display: flex;
+  align-items: center;
+}
+
+.btm-up {
+  font-size: 14pt;
+  height: 33px;
+  margin-right: 10px;
+  font-weight: bold;
+  background-color: greenyellow;
+  border: 1px #000 solid;
+}
+
+.btm-up:hover {
+  background-color: rgb(67, 126, 0);
+  transition: 0.5s;
+}
+
+.btm-up:active {
+  background-color: rgb(0, 44, 0);
+  -webkit-transition: color 0.4s linear;
+  -moz-transition: color 0.4s linear;
+  -o-transition: color 0.4s linear;
+  -ms-transition: color 0.4s linear;
+  transition: color 0.4s linear;
+}
+
+.btm-remove {
+  font-size: 14pt;
+  height: 33px;
+  font-weight: bold;
+  background-color: red;
+  border: 1px #000 solid;
+}
+
+.btm-remove:hover {
+  background-color: rgb(143, 31, 31);
+  transition: 0.5s;
+}
+
+.btm-remove:active {
+  background-color: rgb(92, 0, 0);
+  -webkit-transition: color 0.4s linear;
+  -moz-transition: color 0.4s linear;
+  -o-transition: color 0.4s linear;
+  -ms-transition: color 0.4s linear;
+  transition: color 0.4s linear;
+}
+
+.hide {
+  display: none;
+}

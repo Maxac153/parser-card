@@ -1,0 +1,23 @@
+{
+  "name": "card-date",
+  "version": "0.1.0",
+  "main": "Main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "keywords": [
+    "Electron"
+  ],
+  "author": "Maxak",
+  "devDependencies": {
+    "devtron": "^1.4.0",
+    "electron-packager": "^15.4.0",
+    "standard": "^12.0.1"
+  },
+  "dependencies": {
+    "electron": "^3.0.4",
+    "electron-store": "^2.0.0",
+    "puppeteer": "^13.4.0",
+    "xlsx": "^0.18.3"
+  }
+}

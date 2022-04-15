@@ -1,0 +1,48 @@
+textarea{
+    resize: none;
+    background-color: rgb(46, 46, 46);
+    color: #fff;
+    font-size: 12pt;
+    font-family: "Roboto-Regular", sans-serif;
+}
+
+.wrapper{
+    width: 520px;
+    margin: 0 auto;
+}
+
+.box-add{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.subtitle{
+    color: orange;
+    font-size: 16pt;
+}
+
+.create-cards-post {
+    float: right;
+    font-family: "Roboto-Bold", sans-serif;
+    height: 31px;
+    font-size: 14pt;
+    padding: 0 16px;
+    font-weight: bold;
+    background-color: greenyellow;
+    border: 1px #000 solid;
+  }
+  
+  .create-cards-post:hover {
+    background-color: rgb(67, 126, 0);
+    transition: 0.5s;
+  }
+  
+  .create-cards-post:active {
+    background-color: rgb(0, 44, 0);
+    -webkit-transition: color 0.4s linear;
+    -moz-transition: color 0.4s linear;
+    -o-transition: color 0.4s linear;
+    -ms-transition: color 0.4s linear;
+    transition: color 0.4s linear;
+  }
